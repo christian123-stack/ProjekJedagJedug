@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<style>
+body{
+    background-color:black;
+    
+}
+.container{
+    width:700px;
+    background-color:black;
+    box-shadow:0px 0px 11px 5px cyan;
+    height:700px;
+    margin-left:250px;
+    margin-right:300px;
+    border-radius:15px;
+}
+img{
+   border-radius:12px;
+    width:660px;
+    margin-top:12px;
+margin-left:15px;
+    height:250px;
+animation:transisi 1.3s;
+}
+.all_font{
+ margin-top:10px;
+    margin-left:15px;
+    width:660px;
+    display:flex;
+    background-color:rgb(206, 140, 60);
+    border-radius: 12px;
+    box-shadow:0px 0px 11px 5px cyan;
+animation:efek 1s, boxshadow 1s alternate infinite;
+}
+.home{
+    margin-right:0px;
+    margin-left:13px ;
+    width:78px;  
+    border: none;
+    border-radius:22px;
+background-color:rgb(206, 140, 60);
+}
+.home p{
+    margin-top:5px;
+    margin-left:19px;
+    margin-right:9px;
+}
+.home i {
+    margin-left: 27px;
+    margin-top:12px;
+}
+.wallet{
+    margin-left:25px;  
+    width:78px;
+    border:none;
+    border-radius:22px;
+    background-color:rgb(206, 140, 60);
+}
+.wallet p{
+    margin-top:5px;
+    margin-left:17px;
+    margin-right:8px;
+}
+.wallet i{
+    margin-left:27px;
+    margin-top:12px;
+    margin-right:8px;
+}
+.wallet:hover{
+    animation:warna 0.7s alternate infinite;
+transform:scale(1.3);
+}
+.phone{
+    margin-left:23px; 
+    width:78px;
+    border:none;  
+    border-radius:22px;
+    background-color:rgb(206, 140, 60);
+}
+.phone p{
+    margin-top:5px;
+    margin-left:24px;
+}
+.phone i{
+    margin-left:27px;
+    margin-top:12px;
+}
+.phone:hover{
+    animation:warna 0.7s alternate infinite;
+    transform:scale(1.3);
+}
+.paper{
+   margin-left:22px;
+ border:none;
+   width:78px;
+   border-radius:23px;
+   background-color:rgb(206, 140, 60);
+}
+.paper p{
+    margin-top:5px;
+    margin-left:17px;
+}
+.paper i{
+    margin-left:23px;
+    margin-top:12px;   
+}
+.paper:hover{
+    animation:warna 0.7s alternate infinite;
+    transform:scale(1.3);
+}
+.menu{
+    width:78px;
+    margin-left:22px; 
+    border:none;
+    border-radius:23px;
+    background-color:rgb(206, 140, 60);
+
+}
+.menu:hover{
+    transform:scale(1.3);
+box-shadow:0px 0px 11px 5px cyan;
+animation:warna 0.7s alternate infinite ease-out;
+}
+@keyframes warna{
+    50%{
+        box-shadow:0px 0px 11px 5px cyan;
+    }
+100%{
+    box-shadow:0px 0px 11px 5px red;
+}
+}
+.menu p{
+    margin-top:5px;
+    margin-left:15px;
+}
+.menu i{
+    margin-left:23px;
+    margin-top:12px;
+}
+.letter{
+    width:84px;
+    margin-left:22px;   
+    border:none;
+border-radius:23px;
+background-color:rgb(206, 140, 60);
+}
+.letter p{
+    margin-top:5px;
+    margin-left:5px;
+}
+.letter i{
+    margin-left:26px;
+    margin-top:12px;
+}
+.letter:hover{
+    animation:warna 0.7s alternate infinite;
+    transform: scale(1.3);
+}
+.music{
+    width:78px;
+    margin-left:20px; 
+    border:none;  
+    border-radius:22px;
+    background-color:rgb(206, 140, 60);
+    
+}
+.music:hover{
+    animation:warna 0.7s alternate infinite;
+    transform:scale(1.3);
+}
+.music p{
+    margin-top:12px;
+    margin-left:19px;
+margin-top:3px;
+}
+.music i{
+    margin-left:30px;
+    margin-top:12px;
+}
+
+ .home:hover{
+    animation:warna alternate 0.7s infinite;
+transform:scale(1.3);
+}
+.home i:active{
+    margin-left:30px;
+}
+@keyframes transisi{
+    50%{
+margin-left:1290px;
+    }
+    60%{
+        margin-left:1000px;
+    }
+    70%{
+        margin-left:800px;
+    }
+    80%{
+        margin-left:650px;
+    }
+    90%{
+        margin-left:430px;
+    }
+    95%{
+        margin-left:350px;
+    }
+    100%{
+        margin-left:250px;
+    }
+}
+@keyframes efek{
+    50%{
+margin-top:890px;
+    }
+    100%{
+        margin-top:10px;
+    }
+}
+@keyframes boxshadow{
+    50%{
+        box-shadow:0px 0px 11px 7px cyan;
+    }
+    100%{
+        box-shadow:0px 0px 12px 9px red;
+    }
+}
+@keyframes jedagjedug{
+    50%{
+        color:cyan;
+    }
+    100%{
+        color:magenta;
+    }
+} 
+#namauser{
+    font-size:25px;
+    font-family:'Times New Roman';
+    animation:jedagjedug 0.4s infinite ease-in-out alternate;
+    margin-right:7px;
+    
+}
+@keyframes gakpakelama{
+    50% {
+        color:red;
+    }
+    60% {
+        color:blue;
+    }
+    70% {
+        color:cyan;
+    }
+    80% {
+        color:green;
+    }
+    90% {
+        color:magenta;
+    }
+    100% {
+        color:purple;
+    }
+}
+#alay{
+    animation:gakpakelama alternate 0.4s ease-in-out infinite ;
+    
+}
+#tombolcok{
+    margin-left:283px;
+    width:116px;
+    height:38px;
+    background-color:blueviolet;
+    color:white;
+    animation:tombol 0.5s alternate infinite;
+    border:none;
+    border-radius:11px;
+    text-transform: capitalize;
+    font-size:14px;
+    
+}
+@keyframes tombol{
+    30%{
+       box-shadow: 0px 0px 11px 8px blueviolet;
+        background-color:blueviolet;
+    }
+    45%{
+        background-color:cyan;
+        box-shadow: 0px 0px 11px 8px cyan;
+    }
+}
+#tombolcok:hover{
+    background-color:magenta;
+    animation: magenta1 0.2s alternate infinite;
+}
+@keyframes magenta1{
+    50%{
+        box-shadow: 0px 0px 11px 9px black;
+    }
+    100%{
+        box-shadow: 0px 0px 11px 9px magenta;
+    }
+}
+.nama{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-transform: capitalize;
+}
+</style>
+<body>
+    <div class="container">
+        <img src="welcome.jpg">
+    
+    <div class="all_font">
+    <div class="home">
+        <i class="fas fa-home fs-4x"></i><p>Home</p>
+       
+    </div>
+    <div class="wallet">
+        <i class="fas fa-wallet"></i><p>Wallet</p>
+    </div>
+    <div class="phone">
+        <i class="fas fa-phone"></i><p>Call</p>
+    </div>
+<div class="paper">
+    <i class="fas fa-cart-shopping"></i><p>Order</p>
+</div>
+<div class="menu">
+    <i class="fas fa-newspaper"></i><p>Menu</p>
+</div>
+<div class="letter">
+    <i class="fas fa-envelope"></i><p>Complaint</p>
+</div>
+    <div class="music">
+        <i class="fas fa-music"></i> <p>Music</p>
+</div>
+
+</div>
+<div style="display:flex; flex-wrap: wrap;"  class="nama">
+<h3 id = "alay" style="color:white;"> <h3 style="color:red; margin-left:13px;" id="namauser"></h3></h3></h3>
+</div>
+<button id="tombolcok" onclick="namauser()">nama kamu</button>
+</div>
+</body>
+<script>
+function namauser(){
+    let namabaru = prompt("masukkan nama anda agar saya bisa mengenali anda");
+    document.getElementById("namauser").innerHTML=(`selamat datang ${namabaru} !`);
+}
+</script>
+
+</html>
